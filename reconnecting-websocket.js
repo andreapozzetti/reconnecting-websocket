@@ -92,6 +92,9 @@
  * - The maximum time in milliseconds to wait for a connection to succeed before closing and retrying. Accepts integer. Default: 2000.
  *
  */
+ 
+var WebSocket = require('ws');
+ 
 (function (global, factory) {
     if (typeof define === 'function' && define.amd) {
         define([], factory);
